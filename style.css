@@ -20,6 +20,7 @@ h1 img {
 img{
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.74)
 }
+ /* El header tiene que tener el fondo totalmente negro para diferenciarse de las 3 columnas y predomiar el logo*/
 .header{
     background-color:black;
     font-family: 'Chakra Petch', sans-serif;
@@ -44,6 +45,8 @@ nav{
     display: flex;
     justify-content:space-between;
 }
+
+/* las 3 columnas tienen el background un poco transparente a drede para poder ver el fondo del body */
 .columna-izquierda{
     flex-basis: 40%;
     background:rgba(0, 0, 0, 0.658);
@@ -71,6 +74,7 @@ nav{
     text-align: center;
 }
 
+/* el footer tiene que ser totalmente negro al igual que el header para destacar y diferenciarse del body y las columnas */
 .footer{
     font-family: 'Chakra Petch', sans-serif;
     background-color: rgb(0, 0, 0);
@@ -133,13 +137,13 @@ h4{
   .columna-derecha,p {
     margin: 2%;
 }
-
+/* El body tiene una imagen del grupo Haim*/
   body{
       background-image: url("https://i.pinimg.com/originals/0b/5f/a3/0b5fa3af3b4c4f3c860a96ab06061af1.jpg");
       background-repeat: no-repeat; 
       background-size: cover; 
   }
-
+ /* todos los enlaces tienen el mismo color*/
   a{
       color:rgb(255, 235, 205);
   }
