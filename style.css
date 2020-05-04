@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0
+}
+
+/* Todos los titulos tendrán la misma fuente y centrados */
+h1,h2,h3,h4{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+h1 img {
+    width: 20%; 
+}
+
+.columna-derecha div p{
+    border:white 2px solid
+
+}
+
+img{
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.74)
+}
+.header{
+    background-color:black;
+    font-family: 'Chakra Petch', sans-serif;
+    height: : 100px;
+    text-align: left;
+    color:  lightgoldenrodyellow;
+    padding-top: 20px;
+    padding-bottom:80px;
+}
+p, ul{
+    font-family: Arial, Helvetica, sans-serif
+}
+nav{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: xx-large;  
+    margin:10px
+
+}
+.container{
+    width: 100%;
+    height: 500%;
+    display: flex;
+    justify-content:space-between;
+}
+.columna-izquierda{
+    flex-basis: 40%;
+    background:rgba(0, 0, 0, 0.658);
+    width: 55%;
+    margin-left: 0px;
+    color: white;
+}
+.columna-centro{
+    flex-basis: 180%;
+    background: #410000bb;
+    width: 50%;
+    margin-left: 0px;
+    color:white;
+    float: center;
+    
+}
+.columna-derecha{
+    flex-basis: 170%;
+    background:rgba(0, 0, 0, 0.705);
+    width: 50%;
+    margin-left: 0px;
+    float: right;
+    color: white;
+    flex-flow: column;
+    text-align: center;
+}
+
+.footer{
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    height: 140px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+h4{
+    color: rgb(255, 235, 205)!important;
+
+}
+
+
+/* las aplicaciones tienen iconos */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+   /* Youtube */
+   .fa-youtube {
+    background: darkred;
+    color: white;
+  }
+
+   /* Insta */
+   .fa-instagram {
+    background: rgb(73, 167, 255);
+    color: white;
+  }
+
+ 
+  .columna-centro,p {
+      margin: 2%;
+  }
+
+  .columna-derecha,p {
+    margin: 2%;
+}
+
+  body{
+      background-image: url("https://i.pinimg.com/originals/0b/5f/a3/0b5fa3af3b4c4f3c860a96ab06061af1.jpg");
+      background-repeat: no-repeat; 
+      background-size: cover; 
+  }
+
+  a{
+      color:rgb(255, 235, 205);
+  }
